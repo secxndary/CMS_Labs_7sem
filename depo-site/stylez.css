@@ -1,0 +1,31 @@
+body {
+    background-size: 100%;
+    color: peachpuff;
+    text-shadow: darkred 2px 2px 10px;
+    font-size: 24px;
+}
+h2,h3 {
+    color: blanchedalmond;
+}
+span {
+    color: darkred;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 1px 1px 6px darkred;
+}
+table {
+    border-collapse: separate;
+    border: 2px solid darkred;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;
+    background: linear-gradient(to top left, black, #5e0005);
+    /*background: radial-gradient(at top left, #400005, black);*/
+}
+th {border: 2px solid darkred;
+    color: burlywood;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;}
+td {border: 2px solid darkred;
+    -webkit-border-radius: 25px;
+    border-radius: 25px;}
+
