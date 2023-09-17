@@ -1,0 +1,4 @@
+2023-09-15T16:00:35+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\Gayms\OpenServer\domains\cms-1\wp-includes\class-wpdb.php на строке 2459
+
+2023-09-15T16:03:34+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\Gayms\OpenServer\domains\cms-1\wp-includes\class-wpdb.php на строке 2459
+

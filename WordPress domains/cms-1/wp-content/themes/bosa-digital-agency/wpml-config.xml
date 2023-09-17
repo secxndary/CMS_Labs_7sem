@@ -1,0 +1,11 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_bosa-digital-agency">
+            <key name="featured_pages_section_title" />
+            <key name="featured_pages_section_description" />
+            <key name="feature_posts_two_section_title" />
+            <key name="feature_posts_two_section_description" />
+            <key name="clients_tagline" />
+        </key>
+    </admin-texts>
+</wpml-config>
