@@ -1,0 +1,283 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.grid-wrap {
+    display: grid;
+    grid-gap: 0.5rem 1.5rem;
+    padding: 0; 
+    grid-template-columns: repeat(3, 1fr);
+}
+.sp-product {
+    background: #ffffff;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.sp-product-img-block {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.sp-product img {
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+}
+.sp-product:hover {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    transform: translatey(-3%);
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+.ribbon {
+    box-shadow: 1px 2px 2px rgb(0 0 0 / 20%);
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 6px 12px;
+    position: absolute;
+    right: -46px;
+    text-align: center;
+    top: 20px;
+    transform: rotate(43deg);
+    min-width: 160px;
+    width: auto;
+    border-radius: 0;
+    z-index: 100;
+    color: #fff;
+    background-color: #33b750;
+
+}
+.ribbon.pro {
+    background-color: #df0a0a;
+}
+.sp-sec-wid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0,0,0,.1);;
+    padding: 10px;
+    background: #fff;
+    border-radius: 4px
+}
+.sp-sec-wid-header .sp-sec-wid-title {
+    margin-bottom: 0;
+}
+.sp-sec-wid-title h2 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.sp-sec-product-filter-btn ul li a {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 8px;
+    border-radius: 4px;
+    padding: 0px 6px;
+    display: block;
+}
+/*---------------------------------------
+        2.4.Button Styles           
+-----------------------------------------*/
+.btn {
+    padding: 4px 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
+    border-width: 2px;
+    border-style: solid;
+}
+.btn-theme:hover, .btn-theme:focus {
+    transition: all 0.3s ease 0s;
+    outline: none;
+    box-shadow: 0 4px 20px -5px rgba(0,0,0,0.5);
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1330px;
+    }
+}
+
+#customize-preview iframe {
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    transition: opacity .3s;
+}
+
+.modal-body iframe {
+    height: 100%;
+    width: 100%;
+    z-index: 20;
+    transition: opacity .3s;
+}
+#AnsardemoPreview{
+    z-index:9999999;
+    padding-right: 0 !important;
+}
+.modal-dialog {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width:none !important;
+
+}
+
+.modal-content {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: #ececec !important 
+}
+
+.modal-header {
+    border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer {
+    border-top: 1px solid #9ea2a2 !important;
+}
+
+
+.mx-auto {
+    width: 20%;
+}
+
+ h2 {
+    font-size: 20px !important;
+}
+
+
+.p-mobile{
+  margin: auto 0 auto -160px;
+width: 320px;
+height: 480px;
+max-height: 100%;
+max-width: 100%;
+left: 50%;  
+}
+
+
+
+.p-tablet{
+margin: auto 0 auto -360px;
+width: 720px;
+height: 1080px;
+max-height: 100%;
+max-width: 100%;
+left: 50%;  
+}
+
+/*---new changes --*/
+html{
+    background-color: unset !important;
+}
+
+.uk-subnav.uk-subnav-pill {
+    background-color: #fff;
+    margin-left: unset;
+    border: 1px solid #c3c4c7;
+}
+.uk-subnav.uk-subnav-pill li{
+    margin-bottom: 0px;
+    margin-right: 15px;
+}
+.uk-subnav-pill>.uk-active>a {
+ 
+    border-bottom: 2px solid #333;
+}
+.uk-subnav.uk-subnav-pill li a{
+    padding: 15px 25px;
+    text-transform: capitalize;
+    color: #646970;
+}
+.uk-subnav.uk-subnav-pill li.uk-active a{
+   background-color: unset;
+   color:#1d2327 ; 
+}
+.uk-card.theme{
+    position: relative;
+}
+
+[data-color="cat_8 cat_3 "] .uk-card.theme::before{
+    display: none;
+}
+[data-color="cat_8 cat_3 "]  .uk-card.theme::after{
+    display: none;
+}
+
+[data-color="cat_8 "] .uk-card.theme::before{
+    display: none;
+}
+[data-color="cat_8 "]  .uk-card.theme::after{
+    display: none;
+}
+.uk-grid-margin.uk-first-column .uk-card.theme::before{
+    display: block;
+}
+.uk-grid-margin.uk-first-column  .uk-card.theme::after{
+    display: block;
+}
+
+.wp-heading {
+    text-align: center;
+}
+
+
+.ansar-import-wrap
+{
+        margin: 80px 20px 0 2px;
+        text-align: center;
+}
+
+.ansar-import-wrap h1
+{
+    font-weight: 400;
+    font-size: 25px;
+    padding: 35px 13px 0px;
+    display: block !important; 
+    text-align: center;
+}
+
+.ansar-import-wrap p{
+    font-size: 14px;
+}
+/*.ansar-inner-container
+{
+    max-width: 1200px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+}*/
+
+/*.ansar-inner-box
+{
+ width: 375px;
+ display: inline-block;
+ padding: 10px;
+}*/
+
+@media (min-width: 960px)
+{
+.uk-child-width-1-3\@m>* {
+    width: calc(100% * 1 / 3.1) !important;
+}
+}
+@media (max-width: 767.98px) { 
+    .grid-wrap { 
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+@media (max-width: 991.98px) { 
+    .grid-wrap { 
+    grid-template-columns: repeat(2, 1fr);
+}
+}
