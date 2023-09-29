@@ -1,0 +1,21 @@
+#customize-controls .control-section-newses .accordion-section-title:hover,
+#customize-controls .control-section-newses .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.newses-campus-lite .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-newses .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+body #accordion-section-newses h3 {
+    background-image: linear-gradient(-200deg,#C70909 0%,#6001d2 100%) !important;
+    border-left: 0 !important;
+    color: #fff !important;
+    padding: 20px 20px 20px 20px;
+}

@@ -1,0 +1,163 @@
+/*
+Theme Name: Blogway
+Theme URI: https://themeansar.com/free-themes/blogway/ 
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Blogway is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Blogway is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Blogway is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/blogway and documentation at https://docs.themeansar.com/docs/newses/
+Version: 0.2
+Requires PHP: 5.4
+Tested up to: 6.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newses
+Text Domain: blogway
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Blogway WordPress Theme is child theme of Newses, Copyright 2022 Themeansar
+Blogway is distributed under the terms of the GNU General Public License v3
+
+Blogway is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.site-branding-text p{color: #fff;}
+.small-list-post h5 {
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#content.home {
+   padding-top: 30px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+.recentarea-slider {
+  height: 450px;
+  padding: 0;
+}
+.recentarea .content {
+  margin: 0;
+}
+.recentarea {
+  height: 530px;
+  padding: 15px;
+  border: 1px solid #eee;
+}
+.homemain .mg-blog-post-3.lg {
+    height: 502px;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 700;
+  font-family: 'Zilla Slab', serif;
+  line-height: 1.25;
+}
+.mg-fea-area .wd-back, .wd-back  {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+}
+.mg-sec-title.st5 span.bg {
+    padding: 3px 0 0 25px;
+}
+.mg-sec-title.st5 span.bg::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+}
+.mg-sec-title.st5 span.bg::after {
+   display: none;
+}
+.tabarea .nav-item {
+    margin-bottom: 0;
+    width: 50%;
+    text-align: center;
+}
+.tabarea .nav-link {
+  border-width: 0 0 2px 0;
+  border-style: solid;
+}
+.top-right-area .nav-tabs .nav-link {
+    padding: 8px 0;
+    border-radius: 0;
+    line-height: 1.42857143;
+}
+.top-right-area .nav-tabs .nav-item {
+    text-align: center;
+    flex-grow: 1;
+}
+.top-right-area .tab-content {
+  background: #fff;
+  padding-top: 10px;
+}
+.top-right-area .mg-posts-sec-inner .small-list-post .small-post{
+  margin-bottom: 16px;
+  border-radius: 0;
+  padding: 0 ;
+}
+.top-right-area .mg-posts-sec-inner .small-list-post {
+  margin-bottom: inherit;
+  border-radius: 0;
+  padding: 0 15px;
+}
+.small-post .img-small-post {
+    margin-right: 15px;
+}
+.top-right-area .mg-blog-category a {
+  padding: 0 3px;
+}
+.top-right-area .small-post:last-child ,.small-post:last-child {
+    margin-bottom: 0;
+}
+input[type="submit"]:hover, button:hover, input[type="submit"]:focus, button:focus {
+    transition: all 0.3s ease 0s;
+   outline: 1px solid; 
+}
+.mg-bigp .small-post:first-child .back-img {
+    height: 155px;
+    width: 100%; 
+    margin-right: 0;
+}
+.mg-bigp .small-post:first-child .small-post-content {
+    padding: 20px 20px 0 20px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-end;
+    background: rgba(0,0,0,0.2);
+}
+.mg-bigp .small-post:first-child  h5 {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 10px;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+.mg-bigp .small-post:first-child  h5 a { 
+    color: #fff;
+}
+
+.mg-blog-post-3.sm {
+    height: 238px;
+    min-height: 238px;
+}
+.mg-search-box {
+    display: none;
+}
