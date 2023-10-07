@@ -2,11 +2,10 @@
 
 
 
-function add_stylesheet_to_head() {
-      echo "<link href='".get_stylesheet_uri()."' rel='stylesheet' type='text/css'>";
+function mytheme_enqueue_style() {
+    wp_enqueue_style( 'style', get_template_directory_uri() . '/css/styles.css'); 
 }
-
-add_action( 'wp_head', 'add_stylesheet_to_head' );
+add_action( 'wp_enqueue_scripts', 'mytheme_enqueue_style' );
 
 
 /**
