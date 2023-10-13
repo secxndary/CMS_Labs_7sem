@@ -1,0 +1,14 @@
+2023-10-13T18:37:51+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в D:\Gayms\OpenServer\domains\cms-1\wp-content\plugins\elementskit-lite\widgets\lottie\lottie-handler.php на строке 39
+
+2023-10-13T18:39:28+00:00 CRITICAL Uncaught Error: Call to undefined function get_core_updates() in D:\Gayms\OpenServer\domains\cms-1\wp-admin\includes\class-wp-debug-data.php:50
+Stack trace:
+#0 D:\Gayms\OpenServer\domains\cms-1\wp-content\plugins\advanced-import\admin\class-advanced-import-tracking.php(244): WP_Debug_Data::debug_data()
+#1 D:\Gayms\OpenServer\domains\cms-1\wp-content\plugins\advanced-import\admin\class-advanced-import-tracking.php(269): Advanced_Import_Tracking->get_data()
+#2 D:\Gayms\OpenServer\domains\cms-1\wp-content\plugins\advanced-import\admin\class-advanced-import-tracking.php(307): Advanced_Import_Tracking->setup_data()
+#3 D:\Gayms\OpenServer\domains\cms-1\wp-includes\class-wp-hook.php(310): Advanced_Import_Tracking->do_post()
+#4 D:\Gayms\OpenServer\domains\cms-1\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters()
+#5 D:\Gayms\OpenServer\domains\cms-1\wp-includes\plugin.php(565): WP_Hook->do_action()
+#6 D:\Gayms\OpenServer\domains\cms-1\wp-cron.php(191): do_action_ref_array()
+#7 {main}
+  thrown в D:\Gayms\OpenServer\domains\cms-1\wp-admin\includes\class-wp-debug-data.php на строке 50
+

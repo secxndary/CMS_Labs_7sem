@@ -1,0 +1,50 @@
+        body {
+			background-size: 100%;
+			color: peachpuff;
+			text-shadow: darkred 2px 2px 10px;
+			font-size: 24px;
+		}
+		h2,h3 {
+			color: blanchedalmond;
+		}
+		span {
+			color: darkred;
+			font-style: italic;
+			font-weight: 900;
+			text-shadow: 1px 1px 6px darkred;
+		}
+		table {
+			border-collapse: separate;
+			border: 2px solid darkred;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;
+			background: linear-gradient(to top left, black, #5e0005);
+			/*background: radial-gradient(at top left, #400005, black);*/
+		}
+		th {border: 2px solid darkred;
+			color: burlywood;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;}
+		td {border: 2px solid darkred;
+			-webkit-border-radius: 25px;
+			border-radius: 25px;}
+		.p1 {font-size: 18px; font-family: 'Book Antiqua'; color: beige; text-indent: 28px; word-spacing: 6px;
+            text-align: left; word-spacing: 3px; letter-spacing: 3px; text-shadow: darkred 2px 2px 6px;}
+        .p2 {font-size: 19px; font-family: Calibri; color: bisque; text-indent: 28px; word-spacing: 4px;
+            text-align: justify; word-spacing: 2px; letter-spacing: 2px}
+        .p3 {font-size: 20px; font-family: 'Times New Roman'; color: peachpuff; text-indent: 28px; word-spacing: 5px;
+            text-align: right; word-spacing: 6px; letter-spacing: 2px}
+        .name {font-size:44px;}
+        .friend:link {color: darkviolet; text-shadow: bisque 1px 1px 4px; font-weight: 600}
+        .friend:visited {color: darkviolet; text-shadow: bisque 1px 1px 4px; font-weight: 600}
+        .friend:hover {color: #ff4cff}
+        #firstmixxx, #dope, #pay, #plux {font-style: normal; font-size: 20px;
+            color: brown; text-shadow: 1px 1px 8px firebrick}
+        #yung  {color: silver; text-shadow: 1px 1px 7px azure; font-size: 21px}
+        #yrdead {color: silver; text-shadow: 1px 1px 7px silver; font-size: 20px; font-style: oblique}
+        #five {color: #870028; font-style: normal}
+        .mark {color: blanchedalmond; font-size: 25px; letter-spacing: 3px;}
+        .num1 {font-family: 'Book Antiqua'; color: beige; letter-spacing: 2px}
+        .num2 {font-family: Calibri; color: bisque; letter-spacing: 2px}
+        .num3 {font-family: 'Times New Roman'; color: peachpuff; letter-spacing: 1px}
+		
