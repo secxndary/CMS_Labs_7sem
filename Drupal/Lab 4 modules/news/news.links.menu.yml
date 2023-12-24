@@ -1,6 +1,0 @@
-news.admin_config:
-  title: 'News'
-  description: 'Manage news settings.'
-  parent: system.admin_config
-  route_name: news.page
-  weight: 100
