@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>mod_collapsedform</name>
+    <creationDate>03.08.1964</creationDate>
+    <author>seczndary</author>
+    <authorEmail>secxndary@gmail.com</authorEmail>
+    <authorUrl>neskazhu</authorUrl>
+    <copyright>secxndary inc.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0</version>
+    <description>MY_MODULE</description>
+    <files>
+        <filename module="mod_collapsedform">mod_collapsedform.php</filename>
+        <folder>tmpl</folder>
+        <filename>mod_collapsedform.xml</filename>
+    </files>
+</extension>

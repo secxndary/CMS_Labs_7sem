@@ -1,0 +1,6 @@
+name: 'Custom Slogan'
+type: module
+description: 'My custom slogan module'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9 || ^10
